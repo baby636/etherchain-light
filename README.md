@@ -1,4 +1,18 @@
 # Etherchain Light
+##
+Build and Release FOR INFURA
+```
+cd etherchain-light
+docker build -t infura/etherchain-light:latest .
+docker push infura/etherchain-light:latest
+```
+This container is deployed on Amazon Elastic Container Service (AWS ECS) and is
+behind a load balancer with the public endpoint set to:
+[https://explorer.infuranet.io](https://explorer.infuranet.io)
+
+If you upload a new image, you will need to redeploy the ECS task with the new image tag.
+
+
 ### Lightweight blockchain explorer for your private Ethereum chain
 
 Etherchain Light is an Ethereum blockchain explorer built with NodeJS, Express and Parity. It does not require an external database and retrieves all information on the fly from a backend Ethereum node.
