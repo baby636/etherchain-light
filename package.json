@@ -20,7 +20,7 @@
     "morgan": "~1.7.0",
     "numeral": "^2.0.4",
     "pug": "~2.0.0-beta10",
-    "serve-favicon": "~2.3.2",
+    "serve-favicon": "~2.5.0",
     "solc": "^0.4.9",
     "string-similarity": "^1.1.0",
     "tmp": "0.0.31",
