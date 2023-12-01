@@ -21,7 +21,7 @@
     "numeral": "^2.0.4",
     "pug": "~2.0.0-beta10",
     "serve-favicon": "~2.3.2",
-    "solc": "^0.4.9",
+    "solc": "^0.8.12",
     "string-similarity": "^1.1.0",
     "tmp": "0.0.31",
     "web3": "git+https://github.com/gobitfly/web3.js.git#develop",
